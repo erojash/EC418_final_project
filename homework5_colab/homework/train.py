@@ -34,7 +34,7 @@ def train(args):
     import inspect
     transform = eval(args.transform, {k: v for k, v in inspect.getmembers(dense_transforms) if inspect.isclass(v)})
     print("loading data ...")
-    train_data = load_data('drive_data', transform=transform, num_workers=args.num_workers)
+    train_data = load_data('drive_data', transform=transform, num_workers=args.num_workers,batch_size=150)
     
     # for img, label in train_data:
     #     img, label = img.to(device), label.to(device)
