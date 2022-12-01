@@ -136,7 +136,11 @@ stable-baselines3-master/
 
 
 # drive data
+<<<<<<< HEAD
 homework5_colab/drive_data/
 
 #planner file
 planner.th
+=======
+homework5_colab/drive_data/
+>>>>>>> 9111c1764be4a05a3a857861d1eb074db1714bae
