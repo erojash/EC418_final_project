@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# RL models from stable-baselines 3
+stable-baselines3-master/*
+
+!/stable-baselines3-master/*.ipynb
+!/stable-baselines3-master/logs
+
+
+# drive data
+homework5_colab/drive_data/
+
+#planner file
+planner.th
